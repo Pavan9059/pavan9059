@@ -3,7 +3,7 @@ const CANDIDATES = [
   {
     id:"sample-python",
     initials:"AP",
-    name:"Alex Parker",
+    name:"Vinod P",
     title:"Senior Python / AWS Engineer",
     location:"Charlotte, NC",
     visa:"H1B",
