@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Consultant Profile | TalentBridge</title><link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="index.html">Talent<span>Bridge</span></a><a class="nav-cta" href="index.html#talent">← All Talent</a></header>
+<main class="profile-page"><div id="profile"></div></main>
+<script src="data/candidates.js"></script>
+<script>
+const id=new URLSearchParams(location.search).get("id");
+const c=CANDIDATES.find(x=>x.id===id);
+const el=document.getElementById("profile");
+if(!c){el.innerHTML="<div class='empty'>Profile not found.</div>";}
+else{
+document.title=c.name+" | TalentBridge";
+el.innerHTML=`
+<section class="profile-hero">
+  <div class="candidate-avatar big">${c.initials}</div>
+  <div><span class="eyebrow">CONSULTANT PROFILE</span><h1>${c.name}</h1><h2>${c.title}</h2><p>📍 ${c.location} &nbsp; • &nbsp; ${c.visa} &nbsp; • &nbsp; ${c.status}</p></div>
+</section>
+<div class="profile-grid">
+  <section class="profile-main">
+    <div class="panel"><h3>Professional Summary</h3><p>${c.summary}</p></div>
+    <div class="panel"><h3>Top Skills</h3><div class="skill-list">${c.skills.map(x=>`<span>${x}</span>`).join("")}</div></div>
+    <div class="panel"><h3>Certifications</h3><div class="cert-grid">${c.certifications.map(x=>`<div>✓ ${x}</div>`).join("")}</div></div>
+    <div class="panel"><h3>Experience</h3><p>${c.experience}</p></div>
+  </section>
+  <aside class="sidebar">
+    <div class="panel"><h3>Quick Facts</h3><p><b>Work Authorization</b><br>${c.visa}</p><p><b>Availability</b><br>${c.status}</p><p><b>Preferred Location</b><br>${c.location}</p></div>
+    <div class="panel"><h3>Request Profile</h3><p>Contact the staffing representative for resume, rate and interview coordination.</p><a class="button primary full" href="mailto:your.email@example.com?subject=Profile%20Request%20-%20${encodeURIComponent(c.name)}">Request Consultant</a></div>
+  </aside>
+</div>`;
+}
+</script>
+</body></html>
