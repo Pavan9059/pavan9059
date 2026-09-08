@@ -14,7 +14,7 @@ const CANDIDATES = [
     experience:"Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering."
   },
   {
-    id:"sample-python",
+    id:"sample-mainframe",
     initials:"KK",
     name:"Kishore Kumar",
     title:"Mainframe Developer with Strong Banking Domain Experience",
