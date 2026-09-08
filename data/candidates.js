@@ -2,16 +2,18 @@
 const CANDIDATES = [
   {
     id:"sample-python",
-    initials:"AP",
+    initials:"VP",
     name:"Vinod P",
-    title:"Senior Python / AWS Engineer",
-    location:"Charlotte, NC",
+    title:"Senior QA Test Automation Engineer with Playwright",
+    location:"Austin, TX",
     visa:"H1B",
     status:"Available",
-    skills:["Python","AWS","FastAPI","Flask","Lambda","Boto3","SageMaker","DynamoDB"],
-    certifications:["AWS Certified Solutions Architect – Associate","AWS Certified Developer – Associate"],
-    summary:"Senior cloud-focused Python engineer experienced in building APIs, serverless applications and data services on AWS.",
-    experience:"8+ years of software engineering experience across Python, AWS, API development, cloud automation and data platforms."
+    skills:["Playwright","Automated Test Framework (ATF)","Jenkins","UAT","Test Automation","Functional Testing","Tosca Model-Based Automation","Cucumber", "JBehave"],
+    Domain Experience:["E commerce", "Web Applications", "Network Security", "Healthcare", "Risk Management", "Insurance", "Airline applications"],
+    certifications:["ServiceNow Admin", "Tricentis Tosca (AS1,AS2, API)", "Salesforce Admin", "Blueprism Developer (AD01)", "UiPath Developer"],
+    summary:"•	Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering.
+	     •  Strong QA Team Leadership and Management experience, including mentoring, coaching, and delivery ownership",
+    experience:"Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering."
   },
   {
     id:"sample-java",
