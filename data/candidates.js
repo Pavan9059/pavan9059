@@ -22,7 +22,6 @@ const CANDIDATES = [
     visa:"H1B",
     status:"Available",
     skills:["COBOL", "JCL", "VSAM", "DB2", "CICS", "IMS DB/DC", "Easytrieve"],
-    Domain Experience:["Strong Banking"],
     summary:"Extensively worked in COBOL, JCL, VSAM, DB2, CICS, IMS DB/DC and Easytrieve.  Having extensive experience in writing batch and online applications.",
     experience:"20+ years in IT experience having wide range of experience in Mainframe project execution, technical mentoring and is seasoned in requirements gathering, analyzing, estimating, designing, coding, testing, reviewing, documenting, coordinating, facilitating, technical mentoring and implementing business technology solutions."
   },
