@@ -9,10 +9,8 @@ const CANDIDATES = [
     visa:"H1B",
     status:"Available",
     skills:["Playwright","Automated Test Framework (ATF)","Jenkins","UAT","Test Automation","Functional Testing","Tosca Model-Based Automation","Cucumber", "JBehave"],
-    Domain Experience:["E commerce", "Web Applications", "Network Security", "Healthcare", "Risk Management", "Insurance", "Airline applications"],
     certifications:["ServiceNow Admin", "Tricentis Tosca (AS1,AS2, API)", "Salesforce Admin", "Blueprism Developer (AD01)", "UiPath Developer"],
-    summary:"•	Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering.
-	     •  Strong QA Team Leadership and Management experience, including mentoring, coaching, and delivery ownership",
+    summary:"Strong QA Team Leadership and Management experience, including mentoring, coaching, and delivery ownership",
     experience:"Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering."
   },
   {
