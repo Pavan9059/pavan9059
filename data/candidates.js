@@ -15,6 +15,18 @@ const CANDIDATES = [
   },
   {
     id:"sample-mainframe",
+    initials:"SV",
+    name:"Srikanth Venigalla",
+    title:"iOS Developer",
+    location:"Ofallon, MO",
+    visa:"H1B",
+    status:"Available",
+    skills:["well- versed in using Xcode", "iPhone SDK", "Cocoa Touch framework"],
+    summary:"Extensively worked in COBOL, JCL, VSAM, DB2, CICS, IMS DB/DC and Easytrieve.  Having extensive experience in writing batch and online applications.",
+    experience:"Having 13+ years of experience in iOS application development as a Senior iOS Developer, well- versed in using Xcode, iPhone SDK, and Cocoa Touch framework. Responsibilities include ensuring the implementation of proper software engineering processes on all projects, incorporating best practices, and submitting apps to the App Store."
+  },
+  {
+    id:"sample-mainframe",
     initials:"KK",
     name:"Kishore Kumar",
     title:"Mainframe Developer with Strong Banking Domain Experience",
