@@ -14,7 +14,7 @@ const CANDIDATES = [
     experience:"Senior SDET / QA Automation Lead with 14+ years of experience in enterprise software quality engineering."
   },
   {
-    id:"sample-mainframe",
+    id:"sample-python",
     initials:"SV",
     name:"Srikanth Venigalla",
     title:"iOS Developer",
@@ -26,7 +26,7 @@ const CANDIDATES = [
     experience:"Having 13+ years of experience in iOS application development as a Senior iOS Developer, well- versed in using Xcode, iPhone SDK, and Cocoa Touch framework. Responsibilities include ensuring the implementation of proper software engineering processes on all projects, incorporating best practices, and submitting apps to the App Store."
   },
   {
-    id:"sample-mainframe",
+    id:"sample-python",
     initials:"KK",
     name:"Kishore Kumar",
     title:"Mainframe Developer with Strong Banking Domain Experience",
@@ -38,7 +38,7 @@ const CANDIDATES = [
     experience:"20+ years in IT experience having wide range of experience in Mainframe project execution, technical mentoring and is seasoned in requirements gathering, analyzing, estimating, designing, coding, testing, reviewing, documenting, coordinating, facilitating, technical mentoring and implementing business technology solutions."
   },
   {
-    id:"sample-java",
+    id:"sample-python",
     initials:"RK",
     name:"Riya Kumar",
     title:"Senior Java / AWS Developer",
